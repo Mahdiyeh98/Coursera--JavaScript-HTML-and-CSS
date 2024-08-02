@@ -1,0 +1,95 @@
+html , body{
+  background-color:#d5ffe7;
+  font-family:"Times New Roman", "Arial";
+}
+
+h1{
+  color:green;
+  font-family:"fantasy";
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+div{
+  display:block;
+  font-size:20px;
+  text-align:center;
+}
+
+p {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    border: 5px inset #115527;
+    box-sizing: border-box;
+    text-align: center; 
+}
+
+#water p{
+  border-color:skyblue;
+}
+
+#light p{
+  border-color:yellow;
+}
+
+#water{
+  color:darkblue;
+}
+
+#light{
+  color:#89431f;
+}
+  
+#water, #light {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+input[type="button"] {
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 5px;
+}
+
+#supporter , #colorchanger, #textchanger, #textcolorchanger, #btnvaluechanger {
+  color:yellowgreen;
+  background-color:darkgreen;
+  font-family:"Times New Roman";
+  display: block;
+  margin: 20px auto; /* Center the "Support US" button horizontally */
+}
+
+#waterbtn{
+  background-color:#a1e8ff;
+  color:#408dac;
+  border-style:solid;
+  border-color:#57aed1;
+  font-family:"Times New Roman";
+}
+
+#lightbtn{
+  background-color:#ffff66;
+  color:#c19a86;
+  border-style:solid;
+  border-color:#d7d747;
+  font-family:"Times New Roman";
+}
+
+.waterp{
+  background-color: gray;  
+}
+
+.lightp{
+  background-color: gray;
+}
+
+.cleanwater{
+  background-color: skyblue;
+}
+
+.nolightpollution{
+  background-color: yellow;
+}
