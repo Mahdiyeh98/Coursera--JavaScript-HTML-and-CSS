@@ -1,0 +1,96 @@
+html, body {
+  height: 100%; /* Ensure the body takes up the full height of the viewport */
+  margin: 0;
+  background-color: #d5ffe7;
+  font-family: "Times New Roman", "Arial";
+  display: flex;
+  justify-content: center; /* Center horizontally */
+/*   align-items: center;  Center vertically */
+}
+
+h1 {
+  color: green;
+  font-family: fantasy;
+  text-align: center; /* Center the header text */
+  margin-bottom: 20px; /* Add some space below the header */
+}
+
+div.container {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+}
+
+p {
+  display: inline-block; /* Keeps <p> as inline-block for proper border fitting */
+  margin: 5px;
+  padding: 5px 10px;
+  border: 5px inset #115527;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#water p {
+  border-color: skyblue;
+}
+
+#light p {
+  border-color: yellow;
+}
+
+#water, #light {
+  color: darkblue;
+  display: inline-block; /* Adjust display to inline-block */
+  margin: 5px; /* Add margin to create space around the elements */
+  text-align: center;
+}
+
+#light {
+  color: #89431f;
+}
+
+input[type="button"] {
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 5px;
+}
+
+#supporter, #colorchanger, #textchanger, #textcolorchanger, #btnvaluechanger {
+  color: yellowgreen;
+  background-color: darkgreen;
+  font-family: "Times New Roman";
+  display: block;
+}
+
+#waterbtn {
+  background-color: #a1e8ff;
+  color: #408dac;
+  border-style: solid;
+  border-color: #57aed1;
+  font-family: "Times New Roman";
+}
+
+#lightbtn {
+  background-color: #ffff66;
+  color: #c19a86;
+  border-style: solid;
+  border-color: #d7d747;
+  font-family: "Times New Roman";
+}
+
+.waterp{
+  background-color: white;
+}
+
+.lightp{
+  background-color: white;
+}
+
+.cleanwater {
+  background-color: skyblue;
+}
+
+.nolightpollution {
+  background-color: yellow;
+}
