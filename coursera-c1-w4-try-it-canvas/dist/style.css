@@ -1,0 +1,26 @@
+html, body {
+  font-family: "Times New Roman", "Arial";
+}
+
+input[type="button"] {
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 2px solid;
+  display:block
+}
+
+.leftch {
+  background-color: skyblue;
+}
+
+.rightch {
+  background-color: yellow;
+}
+
+canvas {  
+  width: 200px; /* include units */  
+  height: 100px; /* include units */  
+  margin: 10px;  
+  border: 1px solid black; /* corrected border property */  
+}
