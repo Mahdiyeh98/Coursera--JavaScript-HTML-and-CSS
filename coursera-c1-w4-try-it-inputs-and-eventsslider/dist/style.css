@@ -1,0 +1,18 @@
+h1 {
+  font-family: Tahoma;
+  color: dimgray;
+}
+
+
+
+canvas {
+  width: 300pt;
+  height: 200pt;
+  margin: 10px;
+  border: 1px solid lightgray;
+  background-color: #773399
+}
+
+input {
+  font-size: 20pt;
+}
